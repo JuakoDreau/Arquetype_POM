@@ -9,8 +9,5 @@
         <module name="Arquetype_POM" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Arquetype_POM" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
