@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(publish = false, glue = {"com/testGroup/testProject"},
         features = "src/test/resources/features/test.feature",
-        tags = "@test01"
+        tags = "@test03"
 )
 public class baseTest {
 }

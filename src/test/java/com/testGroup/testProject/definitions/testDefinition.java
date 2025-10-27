@@ -5,7 +5,11 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class testDefinition {
 
@@ -13,7 +17,24 @@ public class testDefinition {
 
     @Given("abro el navegador")
     public void abro_el_navegador() {
-        System.out.println("Hola Mundo 01");
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+    }
+
+    @When("navego en la pagina {string}")
+    public void navego_en_la_pagina(String url) throws InterruptedException {
+        driver.get(url);
+    }
+    @When("selecciono el combobox")
+    public void selecciono_el_combobox() throws InterruptedException {
+        WebElement comboBox = driver.findElement(By.xpath("//*[@id=\"fruit\"]"));
+        comboBox.click();
+    }
+    @Then("selecciono la fruta {string}")
+    public void selecciono_la_fruta(String string) {
+        WebElement fruta = driver.findElement(By.xpath("//*[@id=\"fruit--list--option-0\"]"));
+        fruta.click();
+        driver.quit();
     }
     @When("navego en google {string}")
     public void navego_en_google(String string) {

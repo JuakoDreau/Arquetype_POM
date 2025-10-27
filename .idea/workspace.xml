@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97881d69-8436-4865-b98e-58285cd37b75" name="Changes" comment="ordenando el repositorio" />
+    <list default="true" id="97881d69-8436-4865-b98e-58285cd37b75" name="Changes" comment="ordenando el repositorio">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testGroup/testProject/definitions/testDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testGroup/testProject/definitions/testDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testGroup/testProject/myHooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testGroup/testProject/myHooks/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testGroup/testProject/pom/pages/TestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testGroup/testProject/pom/pages/TestPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testGroup/testProject/pom/testCases/baseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testGroup/testProject/pom/testCases/baseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testGroup/testProject/definitions/testDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testGroup/testProject/definitions/testDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testGroup/testProject/myHooks/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testGroup/testProject/myHooks/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testGroup/testProject/pom/pages/TestPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testGroup/testProject/pom/pages/TestPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testGroup/testProject/pom/testCases/baseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testGroup/testProject/pom/testCases/baseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/test.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +34,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2epOzA6EAVoDpDEBLay2Y6K3qve" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -52,7 +71,47 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.baseTest">
+    <configuration name="Scenario: Login about any page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
+      <option name="GLUE" value="com.testGroup.testProject.myHooks com.testGroup.testProject.definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Arquetype_POM" />
+      <option name="NAME_FILTER" value="^Login about any page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login about any page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login about any page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Seleccion fruta" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
+      <option name="GLUE" value="com.testGroup.testProject.myHooks com.testGroup.testProject.definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Arquetype_POM" />
+      <option name="NAME_FILTER" value="^Seleccion fruta$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Seleccion fruta$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Seleccion fruta" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: primer test de automatizacion (Ejemplo automatizando en google)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
@@ -72,9 +131,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="baseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Arquetype_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testGroup.testProject.pom.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testGroup.testProject.pom.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.testGroup.testProject.pom.testCases.baseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.baseTest" />
+        <item itemvalue="Cucumber Java.Scenario: Seleccion fruta" />
         <item itemvalue="Cucumber Java.Scenario: primer test de automatizacion (Ejemplo automatizando en google)" />
+        <item itemvalue="Cucumber Java.Scenario: Login about any page" />
       </list>
     </recent_temporary>
   </component>

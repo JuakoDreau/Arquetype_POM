@@ -12,13 +12,15 @@ public class Hooks {
     public static WebDriver driver;
 
     @Before
-    static void setupClass() {
+    public void setupClass() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-
+        driver.manage().window().maximize();
+        System.out.println("Iniciando navegador...");
     }
     @After
-    void teardown() {
+    public void teardown() {
         driver.quit();
+        System.out.println("Cerrando navegador...");
     }
 }
